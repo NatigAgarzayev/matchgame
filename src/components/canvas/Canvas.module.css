@@ -1,0 +1,72 @@
+@keyframes fadeUp {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.playground{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    position: relative;
+}
+
+.counter{
+    position: absolute;
+    left: 0;
+    top: -40px;
+    font-size: 24px;
+}
+.hint{
+    position: absolute;
+    right: 0;
+    top: -45px;
+    font-size: 20px;
+
+    padding: 7px 20px;
+    border: 0;
+    border-radius: 10px;
+    outline: 0;
+    cursor: pointer;
+    background-color: rgb(25, 216, 73);
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.hint:hover{
+    background-color: rgb(17, 170, 55);
+}
+
+.hint:disabled{
+    background-color: rgba(25, 216, 73, 0.521);
+}
+
+.over{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(255, 255, 255, 0.664);
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+    z-index: 1;
+    animation-name: fadeUp;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+}
+
+.over img{
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+}

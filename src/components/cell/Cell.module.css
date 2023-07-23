@@ -1,0 +1,14 @@
+.cell{
+    border: 1px solid gray;
+    border-radius: 20px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cell__value{
+    font-size: 36px;
+    display: block;
+}
