@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/matchgame/static/css/main.aee2e285.css",
+    "main.js": "/matchgame/static/js/main.f8419450.js",
+    "static/media/replay.gif": "/matchgame/static/media/replay.14bff403543cfe71e38e.gif",
+    "index.html": "/matchgame/index.html",
+    "main.aee2e285.css.map": "/matchgame/static/css/main.aee2e285.css.map",
+    "main.f8419450.js.map": "/matchgame/static/js/main.f8419450.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aee2e285.css",
+    "static/js/main.f8419450.js"
+  ]
+}
